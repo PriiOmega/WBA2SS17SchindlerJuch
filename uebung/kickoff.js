@@ -12,11 +12,11 @@ fs.readFile('staedte.json',function(err,data){
     
  
     
-// Daten aus Staedte entnehmen
+// Daten aus cities entnehmen
     
- //  var Stadt =obj.staedte;
+  var Stadt =obj.cities;
     
-      console.log(obj)    ; 
+      console.log(Stadt)    ; 
 
 
 });
