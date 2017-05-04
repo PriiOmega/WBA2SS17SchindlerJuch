@@ -16,7 +16,7 @@ fs.readFile('staedte.json',function(err,data){
     
   var Stadt =obj.cities;
     
-      console.log(cities)    ; 
+      console.log(Stadt)    ; 
 
 
 });
