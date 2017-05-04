@@ -24,6 +24,9 @@ fs.readFile('staedte.json',function(err,data){
          console.log('population: '+entry.population);
          console.log(' ');
          console.log('----------------------- ');
+         
+         
+      });
 
 
 });
