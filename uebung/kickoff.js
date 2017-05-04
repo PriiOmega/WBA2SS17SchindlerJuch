@@ -16,7 +16,14 @@ fs.readFile('staedte.json',function(err,data){
     
   var Stadt =obj.cities;
     
-      console.log(Stadt)    ; 
+   
+ // Ausgabe
+      Stadt.forEach(function(entry){
+         console.log('name: '+entry.name);
+         console.log('country: '+entry.country);
+         console.log('population: '+entry.population);
+         console.log(' ');
+         console.log('----------------------- ');
 
 
 });
